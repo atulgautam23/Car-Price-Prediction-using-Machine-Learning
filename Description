@@ -1,0 +1,22 @@
+This project focuses on predicting the prices of Ford cars using machine learning. The dataset contains 17,966 records and 9 features, including car model, manufacturing year, price, transmission type, mileage, fuel type, tax, MPG, and engine size.
+
+The project begins with Exploratory Data Analysis (EDA) to understand the structure and characteristics of the dataset. Data inspection includes checking dataset dimensions, data types, descriptive statistics, and missing values. The dataset contains no missing values across its nine columns.
+
+For preprocessing, categorical variables are encoded using one-hot encoding, while numerical features such as year, mileage, tax, mpg, and engineSize are standardized using StandardScaler.
+
+The processed dataset is divided into training and testing sets using train_test_split, with 33% of the data reserved for testing and random_state=42.
+
+A Linear Regression model is then trained to predict car prices. Model performance is evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE), and R² score, along with Adjusted R² to account for the number of predictors in the model.
+
+Technologies Used
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Scikit-learn
+Linear Regression
+One-Hot Encoding
+StandardScaler
+Train-Test Split
+MAE, MSE, R² and Adjusted R²
